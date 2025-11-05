@@ -10,11 +10,11 @@ import CountUp from "react-countup";
 const Banner = () => {
   return (
     <>
-      <section id="home" className="container ">
-        <div className="both flex justify-between items-center  flex-wrap py-15">
-          <div className="flex flex-col  bg-black  px-6 ">
+      <section id="home" className="container mx-auto px-4">
+        <div className="both flex flex-col md:flex-row justify-between items-center flex-wrap py-12">
+          <div className="flex flex-col bg-black px-6 w-full md:w-1/2">
             <p className="text-lg text-gray-400 mb-2">Hi, I am</p>
-            <h1 className="text-5xl  font-bold text-amber-500  mb-3">
+            <h1 className="text-3xl md:text-5xl font-bold text-amber-500 mb-3">
               Irfanul Haque Iffat
             </h1>
             <p className="text-gray-400 max-w-xl">
@@ -50,7 +50,7 @@ const Banner = () => {
               </a>
               {/* You can add more icons like LinkedIn, Twitter, etc. */}
             </div>
-            <div className="button-part flex gap-7">
+            <div className="button-part flex flex-wrap gap-4 md:gap-7">
               <a
                 href="https://wa.me/message/YD6SZLV35O67B1"
                 className="hover:bg-amber-600  text-white border-2 border-gray-500  px-5 py-2 rounded-lg font-semibold  transition"
@@ -70,7 +70,7 @@ const Banner = () => {
   
 
 {/* ----------counter part----- */}
-<div className="counter-part py-7 px-6 bg-gray-900 mt-20 rounded-2xl text-white">
+<div className="counter-part py-7 px-6 bg-gray-900 mt-8 md:mt-20 rounded-2xl text-white">
   
 
   <div className="allCounter flex flex-wrap justify-center md:flex-nowrap md:justify-between items-center gap-y-6 md:gap-x-4">
@@ -110,9 +110,10 @@ const Banner = () => {
 
 
           </div>
-          <div className="img-part  ">
+          <div className="img-part w-full md:w-1/2 flex justify-center mt-8 md:mt-0">
             <Image
-              className=" rounded-4xl"
+              alt="Banner image"
+              className="rounded-4xl w-full max-w-[500px] h-auto"
               src={banner}
               width={500}
               height={600}

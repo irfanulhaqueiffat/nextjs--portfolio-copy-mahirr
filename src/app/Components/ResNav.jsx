@@ -32,7 +32,7 @@ const ResNav = () => {
 
   return (
     <>
-      <div className="lg:hidden absolute left-0 top-0 z-50 w-full bg-black-bg">
+      <div className="lg:hidden relative z-50 w-full bg-black">
         <div>
           <div className="main flex items-center justify-between px-6 py-6">
             <div
@@ -43,23 +43,21 @@ const ResNav = () => {
             </div>
 
             {/* ------logo------ */}
-            <div className="logo w-6">
-              <h1 className="text-2xl text-theme font-bold font-lato">LOGO</h1>
+            <div className="logo">
+              <h1 className="text-2xl text-amber-600 font-bold">LOGO</h1>
             </div>
 
-            <div className="sin-button cursor-pointer w-[85px] h-[35px] flex items-center justify-center bg-theme hover:bg-transparent text-sm text-text hover:text-white font-medium font-lato rounded-xl">
+            <div className="sin-button cursor-pointer w-[85px] h-[35px] flex items-center justify-center bg-amber-600 hover:bg-transparent text-sm text-white font-medium rounded-xl">
               Hire Me
             </div>
           </div>
         </div>
 
         {showMenu && (
-          <div className="menu w-full h-screen bg-gray-950 absolute left-0 top-0 z-50">
+            <div className="menu w-full h-screen bg-gray-950 fixed left-0 top-0 z-50">
             <div className="main flex items-center justify-between px-6 py-6">
-              <div className="logo w-6">
-                <h1 className="text-2xl text-amber-600 font-bold font-lato">
-                  LOGO
-                </h1>
+              <div className="logo">
+                <h1 className="text-2xl text-amber-600 font-bold">LOGO</h1>
               </div>
 
               <div

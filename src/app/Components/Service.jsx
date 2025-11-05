@@ -20,8 +20,8 @@ const Service = () => {
 
           <div className="skill-part flex justify-between mb-10 flex-wrap gap-10 lg:gap-0">
             <div
-              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
-                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+              className="partone w-full md:w-[400px] md:h-[322px] px-7 flex flex-col justify-center bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20 rounded-xl"
             >
               <button className="text-5xl text-amber-600 pb-8">
                 <FaHtml5 />
@@ -36,8 +36,8 @@ const Service = () => {
             </div>
 
             <div
-              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
-                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+              className="partone w-full md:w-[400px] md:h-[322px] px-7 flex flex-col justify-center bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20 rounded-xl"
             >
               <button className="text-5xl text-blue-400 pb-8">
                 <FaReact />
@@ -52,8 +52,8 @@ const Service = () => {
             </div>
 
             <div
-              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
-                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+              className="partone w-full md:w-[400px] md:h-[322px] px-7 flex flex-col justify-center bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20 rounded-xl"
             >
               <button className="text-5xl text-white pb-8">
                 <SiNextdotjs />
@@ -69,8 +69,8 @@ const Service = () => {
           </div>
           <div className="skill-part flex justify-between mb-10 flex-wrap">
             <div
-              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
-                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+              className="partone w-full md:w-[400px] md:h-[322px] px-7 flex flex-col justify-center bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20 rounded-xl"
             >
               <button className="text-5xl text-green-600 pb-8">
                 <RiNodejsLine />
@@ -85,8 +85,8 @@ const Service = () => {
             </div>
 
             <div
-              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
-                           hover:border-amber-500 hover:shadow-amber-500/20  rounded-xl "
+              className="partone w-full md:w-[400px] md:h-[322px] px-7 flex flex-col justify-center bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20 rounded-xl"
             >
               <button className="text-5xl text-amber-400 pb-8">
                 <SiExpress />
@@ -147,8 +147,8 @@ const Service = () => {
             </div>
 
             <div
-              className="partone w-[400px] h-[322px] px-7 flex flex-col justify-center  bg-gray-950 border border-gray-800 
-                           hover:border-amber-500 hover:shadow-amber-500/20 shadow-xl rounded-xl "
+              className="partone w-full md:w-[400px] md:h-[322px] px-7 flex flex-col justify-center bg-gray-950 border border-gray-800 
+                           hover:border-amber-500 hover:shadow-amber-500/20 shadow-xl rounded-xl"
             >
               <button className="text-5xl text-white pb-8">
                 <FaGithub />
