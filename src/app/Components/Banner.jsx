@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { CiLinkedin } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
-import banner from "../../app/Images/banner.jpg";
+import banner from "../../app/Images/banner1.png";
 import Image from "next/image";
 import CountUp from "react-countup";
 const Banner = () => {
