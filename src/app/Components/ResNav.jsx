@@ -1,7 +1,8 @@
 "use client";
 import React, { useState } from "react";
 import { GiHamburgerMenu, GiTireIronCross } from "react-icons/gi";
-
+import Image from "next/image";
+import logo from "../../app//Images/logooo.png";
 import Link from "next/link";
 
 const menuitem = [
@@ -44,7 +45,10 @@ const ResNav = () => {
 
             {/* ------logo------ */}
             <div className="logo">
-              <h1 className="text-2xl text-amber-600 font-bold">LOGO</h1>
+              <h1 className="text-2xl text-amber-600 font-bold"><Image
+              className="w-[100px] h-[100px] flex justify-center"
+                                    src={logo}
+                                    alt={logo}/></h1>
             </div>
 
             <div className="sin-button cursor-pointer w-[85px] h-[35px] flex items-center justify-center bg-amber-600 hover:bg-transparent text-sm text-white font-medium rounded-xl">
