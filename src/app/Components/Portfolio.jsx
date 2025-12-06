@@ -8,7 +8,8 @@ import Canvix from "../Images/canvix.png"
 import tree from "../Images/tree plant.png"
 import furniture from "../Images/furniture.png"
 import weather from "../Images/weather.png"
-
+import frox from "../Images/Screenshot 2025-12-06 233253.png"
+import shopery from "../Images/Screenshot 2025-12-06 233922.png"
 // Your Project Data
 const projects = [
   {
@@ -47,10 +48,16 @@ const projects = [
     link: "https://login-page-ten-alpha.vercel.app",
   },
   {
-    image:"",
-    title: "Admin Dashboard / Node.js Project",
-    stack: "Node.js, Dashboard UI",
-    link: "#",
+    image: frox,
+    title: "Frox Dashboard / Next.js Project",
+    stack: "Next.js, Dashboard UI",
+    link: "https://frox-dashboard.vercel.app/",
+  },
+    {
+    image: shopery,
+    title: "Shopery ecommarce  / Next.js Project",
+    stack: "Next.js, Ecommarce UI",
+    link: "https://shopery-ecommarce-new-project-next-chi.vercel.app/",
   },
 ];
 
